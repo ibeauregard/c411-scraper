@@ -36,7 +36,7 @@ public class Scraper {
                 bufferedWriter.write(line + ";" + phoneNumber);
                 bufferedWriter.newLine();
 
-                System.out.println(counter + " " + phoneNumber);
+                System.out.println("Voter #" + counter + ": " + phoneNumber);
                 counter++;
             }
         } catch (IOException e) {
